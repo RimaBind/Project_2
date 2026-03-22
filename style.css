@@ -44,8 +44,8 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 2.2em;
-    width: 80%;
-    height: 100%;
+    width: 90%;
+    height: 40%;
     background: #7bbb80;
     border-radius: 20px;
 }
@@ -75,7 +75,6 @@ input[type="range"] {
 
 
 input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
     width: 47px;
     height: 47px;
     background: rgb(67, 134, 81);
