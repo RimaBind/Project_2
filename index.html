@@ -1,0 +1,46 @@
++. /!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="firstDiv">
+        <h1 id="newPass"></h1>
+        <i class="fa-regular fa-copy" id="copyBtn"></i>
+        </div>
+        <div class="secondDiv">
+        <input type="range" id="range" min="6" max="20" value="10">
+        <p id="rangeVal"></p>
+        </div>
+        <div class="thirdDiv">
+            <div class="inputDiv">
+        <input type="checkbox" name="capLet" id="capLet">
+        <lable for="capLet">UpperCase</lable>
+        </div>
+        <br>
+        <div class="inputDiv">
+        <input type="checkbox" name="samLet" id="samLet">
+        <lable for="capLet">LowerCase</lable>
+        </div>
+         <br>
+         <div class="inputDiv">
+        <input type="checkbox" name="number" id="number">
+        <lable for="capLet">Number</lable>
+        </div>
+         <br>
+         <div  class="inputDiv">
+         <input type="checkbox" name="symbol" id="symbol">
+         <lable for="capLet">Symbol</lable>
+         </div>
+         </div>
+         <br>
+         <button id="genPass"> Generate Password</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
